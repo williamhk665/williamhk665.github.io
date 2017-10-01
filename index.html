@@ -1,121 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/stylsheet.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 20px;
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-    
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height:auto;} 
-    }
-  </style>
-</head>
-<body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Logo</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-  
-<div class="container-fluid text-center">    
-  <div class="row content">
-    <div class="col-sm-2 sidenav">
-      <p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>
-    </div>
-    <div class="col-sm-8 text-left"> 
-      <h1>Welcome</h1>
-      <p><script>
-  (function() {
-    var cx = '015125619330346451883:_ch2n08ua70';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search></p>
-      <hr>
-      <h3>Test</h3>
-      <p>Lorem ipsum...</p>
-    </div>
-    <div class="col-sm-2 sidenav">
-      <div class="well">
-        <p>ADS</p>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="我们提供量身定制，设计对您的最适用的网站。您有您的想法？ 我们很乐意在温哥华或列治文任何地点与您相约，品茗细谈。">
+    <meta name="author" content="wKarapetyan | 温哥华网站设计公司">
+    <meta name="keywords" content="制作,网站设计,资源规划,战略策划,经营分析,搜索引擎优化,市场推广">
+
+    <title>wKarapetyan | 温哥华网站设计公司 | 屏幕内外，皆，为您负责</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/Thumbnails.css" rel="stylesheet">
+
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">wKarapetyan </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">关于我们</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#download">服务</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">联系我们</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="https://www.wKarapetyan.com">English</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="well">
-        <p>ADS</p>
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="masthead">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+
+            <img src="img/logow.png" class="logo" height="350" width="350" alt="wKarapetyan | 温哥华网站设计公司">
+              <p class="intro-text">屏幕内外，皆，为您负责
+                <br>温哥华网站设计公司</p>
+              <a href="#about" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>我们是做什么的呢。。。</h2>
+            <p>我们为我们的顾客提供一系列专业服务， 包括
+               <br>经营分析, 战略策划,资源规划,网站设计及制作, 市场推广和搜索引擎优化以及网站后续支持</p>         
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download-section content-section text-center">
+      <div class="container">
+        <div class="col-lg-12 mx-auto">
+              <div class="container" id="tourpackages-carousel">
+      
+      <div class="row">
+        
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="img/350a.png"  alt="经营分析">
+              
+              <br>
+              <br>
+              <div class="caption">
+                <h4>经营分析</h4>
+                <p>我们可以对你现有的人网站，社交媒体以及搜索引擎运营现状进行分析， 为您提供最专业有效的改进建议。</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="img/350b.png" alt="战略策划">
+            <br>
+            <br>
+              <div class="caption">
+                <h4>战略策划</h4>
+                <p>不管是新网站，您的现有网站改进，或者需要整体的搜索引擎优化，我们都能设计并执行适合您的网站运营策略，以帮你提高网站的曝光率和知名度。</p>
+                
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="img/350c.png" alt="资源规划">
+            <br>
+            <br>
+              <div class="caption">
+                <h4>资源规划</h4>
+                <p>我们理解运营一个生意花费良多，我们想帮您解决问题而不是增加您的负担。 让我们知道怎么做能帮助到您，我们可以在此基础上帮您用最少的投资达到最理想的成果!</p>
+               
+            </div>
+          </div>
+        </div>
+        <div class="row">
+        
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="img/350d.png" alt="网站设计& 制作">
+            <br><br>
+              <div class="caption">
+                <h4>网站设计& 制作</h4>
+                <p>我们提供量身定制，设计对您的最适用的网站。您有您的想法？ 我们很乐意在温哥华或列治文任何地点与您相约，品茗细谈。</p>
+                
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="img/350f.png" alt="市场推广 &搜索引擎优化">
+            <br><br>
+              <div class="caption">
+                <h4>市场推广 &搜索引擎优化</h4>
+                <p> 网络营销推广有困难， 需要一个社交媒体活动策划人或者一个搜索引擎优化的推动来增加您的业务量？不用担心，我们能帮忙！</p>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="img/350e.png" alt="后续支持">
+            <br><br>
+              <div class="caption">
+                <h4>后续支持</h4>
+                <p>工作完成了，您也满意了！ 但等等。。。如果您之后需要做些改动，届时该怎么办呢？ 不用担心，您有我们在！ 当您成交付款后，您将被提供长达一年的售后服务支持，任您差遣。</p>
+                
+            </div>
+          </div>
+        </div>
+
+
+        
+        
+      </div><!-- End row -->
+      
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>联系我们</h2>
+            <p>咨询报价，请发电子邮件至
+              <a href="mailto:hayk@wkarapetyan.com">温哥华网站设计公司</a>
+              </p>
+            <ul class="list-inline banner-social-buttons">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/webkarapetyan" class="btn btn-default btn-lg">
+                  <i class="fa fa-twitter fa-fw"></i>
+                  <span class="network-name">Twitter</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a style="cursor:pointer" data-toggle="modal" data-toggle="modal" data-target="#project1" class="btn btn-default btn-lg">
+                  <i class="fa fa-wechat fa-fw"></i>
+                  <span class="network-name">微信</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://facebook.com/HaykWebDevelopment" class="btn btn-default btn-lg">
+                  <i class="fa fa-facebook fa-fw"></i>
+                  <span class="network-name">Facebook</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <iframe
+  width="100%"
+  height="450"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCCJp_P-REhOt-wGZkVgqNvHE45UQwmoX0
+    &q=Richmond+BC" allowfullscreen>
+</iframe>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <p>Copyright &copy; <a href="https://wKarapetyan.com">wKarapetyan.com</a> 2017 | All Rights Reserved | <a href="cn.wkarapetyan.com">温哥华网站设计公司</a></p>
+      </div>
+    </footer>
+
+
+    <!-- Modal content-->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">wKarapetyan.com</h4>
+                </div>
+                <div class="modal-body">
+                    <a href="http://wkarapetyan.com"><img class="img-responsive" src="QRcode.png" ></a>
+                   
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-<div class="footer">
-<footer class="container-fluid text-center">
-  <p>Footer Text</p>
-</footer>
-</div>
-</body>
-</html>
 
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+   
+    
 
-<!--JavaScript-->
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
-</body>
+  </body>
+
 </html>

@@ -1,0 +1,24 @@
+.thumbnail {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.modal-image {
+     display: inline-block;
+     vertical-align: middle;
+     float: ;
+}
+.modelp {
+	
+	color: black;
+	font-weight: 800;
+}
+.img-responsive {
+   padding:1px;
+   margin-bottom: 1px;
+}
