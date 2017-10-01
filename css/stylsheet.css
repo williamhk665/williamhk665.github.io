@@ -1,18 +1,4 @@
-@-webkit-viewport {
-    width: device-width;
-}
 
-@-moz-viewport {
-    width: device-width;
-}
-
-@-ms-viewport {
-    width: device-width;
-}
-
-@-o-viewport {
-    width: device-width;
-}
 
 
 body {
@@ -87,22 +73,17 @@ filter: none;
 html, body {
     height: 100%;}
 
-br {
-    display: block;
-    margin-bottom: 50px;
-    font-size:2px;
-    line-height: 2px;
-}
 
-.thumbnails {
-    margin-top: 100px;
-}
+
 footer {
    
     margin-top: 10px;
     padding: 15px 0;
     background: #111;
     border-top: 2px solid #28ABE3;
+}
+.thumbnails {
+    margin-top: 100px;
 }
 
 .copyright {
