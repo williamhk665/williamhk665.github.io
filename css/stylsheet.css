@@ -1,4 +1,29 @@
 
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+a {
+    color: #28ABE3;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    //color: #ea321e;
+    text-decoration: none;
+}
+
+
+p {
+    font-size: 13px;
+    line-height: 21px;
+}
 @-webkit-viewport {
     width: device-width;
 }
