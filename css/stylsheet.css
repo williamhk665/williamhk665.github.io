@@ -1,3 +1,19 @@
+@-webkit-viewport {
+    width: device-width;
+}
+
+@-moz-viewport {
+    width: device-width;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@-o-viewport {
+    width: device-width;
+}
+
 
 body {
     overflow-x: hidden;
@@ -24,21 +40,10 @@ p {
     font-size: 13px;
     line-height: 21px;
 }
-@-webkit-viewport {
-    width: device-width;
-}
 
-@-moz-viewport {
-    width: device-width;
-}
 
-@-ms-viewport {
-    width: device-width;
-}
 
-@-o-viewport {
-    width: device-width;
-}
+/* code that is here will apply to any screen size */
 
 
 /*COLORS*/
