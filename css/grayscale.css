@@ -81,7 +81,7 @@ a {
       background-color: transparent; }
     #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
       outline: none;
-      background-color: transparent; }
+      background-color: white; }
   @media (min-width: 992px) {
     #mainNav {
       padding-top: 20px;
@@ -91,7 +91,7 @@ a {
       transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
       letter-spacing: 1px;
       border-bottom: none;
-      background: transparent; }
+      background: white; }
       #mainNav.navbar-shrink {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -230,9 +230,11 @@ ul.banner-social-buttons {
 
 
 }
-hr {
-  color: black;
-}
+.heading-wrap {
+  background-image: url("../img/intro-bg.jpg");
+  background-color: black;
+  opacity: 0.8;
+} 
 
 footer {
   padding: 0px 0; }
